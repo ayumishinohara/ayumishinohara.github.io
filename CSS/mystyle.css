@@ -156,4 +156,25 @@ nav a{
 
     text-decoration:none;
 
-｝
+}
+
+.profile-img{
+	display: block;
+	margin: 20px auto;
+}
+
+.photo{
+	text-align: center;
+}
+
+.photo img{
+	display:inline-block;
+	margin: 10px;
+}
+
+.photo{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 10px;
+}
