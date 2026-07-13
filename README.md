@@ -1,0 +1,1 @@
+# ayumishinohara.github.io
