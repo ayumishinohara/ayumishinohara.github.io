@@ -210,3 +210,32 @@ nav a{
 	gap: 10px;
 }
 
+@media screen and (max-width: 600px){
+
+    .header-in{
+
+        width: 100%;
+
+    }
+
+    article{
+
+        width: 90%;
+
+    }
+
+    .catch{
+
+        position: static;
+
+        width: auto;
+
+    }
+
+    nav ul{
+
+        text-align: center;
+
+    }
+
+}
