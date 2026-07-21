@@ -156,4 +156,65 @@ nav a{
 
     text-decoration:none;
 
-｝
+}
+
+.profile-img{
+	display: block;
+	margin: 20px auto;
+}
+
+.photo{
+	text-align: center;
+}
+
+.photo img{
+	display:inline-block;
+	margin: 10px;
+}
+
+.photo{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 10px;
+}
+@media print{
+
+    body{
+
+        background: white;
+
+        color: black;
+
+    }
+
+    header,
+
+    nav,
+
+    footer{
+
+        display: none;
+
+    }
+	
+    article{
+
+        width: 100%;
+
+    }
+
+}
+body {
+
+    background-image: url("../images/background.jpg");
+
+    background-size: cover;
+
+    background-repeat: no-repeat;
+
+    background-position: center;
+
+    background-attachment: fixed;
+
+}
