@@ -38,7 +38,7 @@ article {
 	position: relative;
 	clear:both;
 	width:90%;
-	max-width: 1000px;
+	max-width: 1000pX;
 	margin: 0 auto;
 
 
@@ -51,14 +51,11 @@ article {
 	color: #6b4f3a;
 	text-shadow: 0px 5px 10px #ffff;
 	border: 1px solid #6b4f3a;
-	width: 90%;
-	max-width: 500px;
 }
 
 header{
 	background-color: #d9c2a7;
 	height: 80px;
-	
 }
 
 nav ul{
@@ -85,37 +82,11 @@ header img{
 
 }
 .header-in{
-	width: 90%;
-	max-width: 960px;
-	margin:0 auto
+	width: 960px;
+	margin-left:auto;
+	margin-right:auto;
 }
-@media print{
 
-    body{
-
-        background: white;
-
-        color: black;
-
-    }
-
-    header,
-
-    nav,
-
-    footer{
-
-        display: none;
-
-    }
-	
-    article{
-
-        width: 100%;
-
-    }
-
-}
 
 
 /* 959px以下の場合 */
@@ -126,7 +97,7 @@ header img{
 
 
 nav ul{
-	text-align:right;
+	text-align:left;
 	padding:0;
 	margin-left:10px;
 }
@@ -135,8 +106,6 @@ nav ul{
 
 article img{
 	box-shadow: 5px 5px 10px #999;
-	max-width: 90%;
-	height:auto;
 }
 
 .trivia{
@@ -209,33 +178,43 @@ nav a{
 	justify-content: center;
 	gap: 10px;
 }
+@media print{
 
-@media screen and (max-width: 600px){
+    body{
 
-    .header-in{
+        background: white;
+
+        color: black;
+
+    }
+
+    header,
+
+    nav,
+
+    footer{
+
+        display: none;
+
+    }
+	
+    article{
 
         width: 100%;
 
     }
 
-    article{
+}
+body {
 
-        width: 90%;
+    background-image: url("../images/background.jpg");
 
-    }
+    background-size: cover;
 
-    .catch{
+    background-repeat: no-repeat;
 
-        position: static;
+    background-position: center;
 
-        width: auto;
-
-    }
-
-    nav ul{
-
-        text-align: center;
-
-    }
+    background-attachment: fixed;
 
 }
