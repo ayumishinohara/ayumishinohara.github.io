@@ -1,211 +1,8 @@
 @charset "utf-8";
 
 body {
-	background-color: #f5efe6;
-	color: #6b4f3a;
-	font-family: "Zen Maru Gothic", serif;
-	margin: 0;
-	padding: 0;
-}
 
-p {
-	font-size: 90%;
-}
-
-h1 {
-	font-size: 180%;
-	font-family: "Kaisei Decol", serif;
-	
-}
-
-h2 {
-	font-size: 120%;
-	border-bottom: 1px dashed #d9c2a7;
-	border-left: 10px solid #d9c2a7;
-	padding-left: 7px;
-}
-
-footer {
-	text-align: center;
-	border: 1px solid #6b4f3a;
-	background-color: #d9c2a7;
-	color: #6b4f3a;
-	padding-top: 10px;
-	padding-bottom: 10px;
-}
-
-article {
-	position: relative;
-	clear:both;
-	width:90%;
-	max-width: 1000pX;
-	margin: 0 auto;
-
-
-}
-
-.catch {
-	position: absolute;
-	top: 20px;
-	left: 30px;
-	color: #6b4f3a;
-	text-shadow: 0px 5px 10px #ffff;
-	border: 1px solid #6b4f3a;
-}
-
-header{
-	background-color: #d9c2a7;
-	height: 80px;
-}
-
-nav ul{
-	font-weight: bold;
-	text-align: right;
-	padding-top: 26px;
-	
-}
-
-nav li{
-	display: inline;
-	padding-left: 10px;
-	padding-right: 12px;
-	border-right: 1px solid #d9c2a7;
-}
-
-
-section ul{
-	list-style-image: url("../images/icon.png");
-}
-
-header img{
-	float:left;
-
-}
-.header-in{
-	width: 960px;
-	margin-left:auto;
-	margin-right:auto;
-}
-
-
-
-/* 959px以下の場合 */
-@media(max-width:959px){
-header img{
-	float:none;
-}
-
-
-nav ul{
-	text-align:left;
-	padding:0;
-	margin-left:10px;
-}
-
-}
-
-article img{
-	box-shadow: 5px 5px 10px #999;
-}
-
-.trivia{
-
-    background: linear-gradient(#fffaf3,#f5efe6);
-
-    padding: 30px;
-
-    margin-top: 20px;
-
-    border-radius: 10px;
-
-}
-
-.paw{
-
-    list-style-image: url("../images/icon.png");
-
-}
-
-a:link{
-
-    color:#6b4f3a;
-
-}
-
-a:visited{
-
-    color:#8b6d5c;
-
-}
-
-a:hover{
-
-    color:#6b4f3a;
-
-    text-decoration:underline;
-
-}
-
-a:active{
-
-    color:#ff9900;
-
-}
-
-nav a{
-
-    text-decoration:none;
-
-}
-
-.profile-img{
-	display: block;
-	margin: 20px auto;
-}
-
-.photo{
-	text-align: center;
-}
-
-.photo img{
-	display:inline-block;
-	margin: 10px;
-}
-
-.photo{
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	gap: 10px;
-}
-@media print{
-
-    body{
-
-        background: white;
-
-        color: black;
-
-    }
-
-    header,
-
-    nav,
-
-    footer{
-
-        display: none;
-
-    }
-	
-    article{
-
-        width: 100%;
-
-    }
-
-}
-body {
+    background-color: #f5efe6;
 
     background-image: url("../images/background.jpg");
 
@@ -217,4 +14,297 @@ body {
 
     background-attachment: fixed;
 
+    color: #6b4f3a;
+
+    font-family: "Zen Maru Gothic", serif;
+
+    margin: 0;
+
+    padding: 0;
+
 }
+
+p {
+
+    font-size: 90%;
+
+}
+
+h1 {
+
+    font-size: 180%;
+
+    font-family: "Kaisei Decol", serif;
+
+}
+
+h2 {
+
+    font-size: 120%;
+
+    border-bottom: 1px dashed #d9c2a7;
+
+    border-left: 10px solid #d9c2a7;
+
+    padding-left: 7px;
+
+}
+
+header {
+
+    background-color: #d9c2a7;
+
+    min-height: 80px;
+
+}
+
+header img {
+
+    float: left;
+
+}
+
+.header-in {
+
+    width: 960px;
+
+    margin: 0 auto;
+
+}
+
+nav ul {
+
+    font-weight: bold;
+
+    text-align: right;
+
+    padding-top: 26px;
+
+}
+
+nav li {
+
+    display: inline;
+
+    padding: 0 12px;
+
+    border-right: 1px solid #d9c2a7;
+
+}
+
+nav a {
+
+    text-decoration: none;
+
+}
+
+article {
+
+    position: relative;
+
+    clear: both;
+
+    width: 90%;
+
+    max-width: 1000px;
+
+    margin: 0 auto;
+
+}
+
+article img {
+
+    width: 100%;
+
+    height: auto;
+
+    display: block;
+
+    box-shadow: 5px 5px 10px #999;
+
+}
+
+.catch {
+
+    position: absolute;
+
+    top: 20px;
+
+    left: 30px;
+
+    color: #6b4f3a;
+
+    text-shadow: 0px 5px 10px #fff;
+
+    border: 1px solid #6b4f3a;
+
+    padding: 15px;
+
+}
+
+section ul {
+
+    list-style-image: url("../images/icon.png");
+
+}
+
+.trivia {
+
+    background: linear-gradient(#fffaf3, #f5efe6);
+
+    padding: 30px;
+
+    margin-top: 20px;
+
+    border-radius: 10px;
+
+}
+
+.paw {
+
+    list-style-image: url("../images/icon.png");
+
+}
+
+a:link {
+
+    color: #6b4f3a;
+
+}
+
+a:visited {
+
+    color: #8b6d5c;
+
+}
+
+a:hover {
+
+    color: #6b4f3a;
+
+    text-decoration: underline;
+
+}
+
+a:active {
+
+    color: #ff9900;
+
+}
+
+.profile-img {
+
+    display: block;
+
+    margin: 20px auto;
+
+}
+
+.photo {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+    gap: 10px;
+
+}
+
+.photo img {
+
+    margin: 10px;
+
+}
+
+/* スマホ表示 */
+
+@media (max-width: 959px) {
+
+    header img {
+
+        float: none;
+
+    }
+
+    nav ul {
+
+        text-align: left;
+
+        padding: 0;
+
+        margin-left: 10px;
+
+    }
+
+    .catch {
+
+        position: static;
+
+        border: none;
+
+        text-shadow: none;
+
+        padding: 20px 0;
+
+    }
+
+    h1 {
+
+        font-size: 150%;
+
+    }
+
+    body {
+
+        background-attachment: scroll;
+
+    }
+
+}
+
+/* 印刷用 */
+
+@media print {
+
+    body {
+
+        background: white;
+
+        color: black;
+
+    }
+
+    header,
+
+    nav,
+
+    footer {
+
+        display: none;
+
+    }
+
+    article {
+
+        width: 100%;
+
+    }
+
+}
+
+footer {
+
+    text-align: center;
+
+    border: 1px solid #6b4f3a;
+
+    background-color: #d9c2a7;
+
+    color: #6b4f3a;
+
+    padding: 10px 0;
+
+}
+
